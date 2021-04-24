@@ -1,0 +1,70 @@
+body {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0 0 15px 0;
+    line-height: 1.3;
+}
+
+h1 {font-size: 38px;
+    font-weight: 900;}
+
+h2 {font-size: 26px;}
+
+h3 {font-size: 22px;}
+
+h4 {font-size: 18px;}
+
+/* Tableaux */
+td, th, tr {
+  padding: 5px;
+}
+td, tr {
+  background: #ddd;
+  color:#333;
+}
+th {
+  background: #333;
+  color:#ddd;
+}
+/* Tableaux */
+
+
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  /*padding-left: 25px;*/
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 100%;
+}
+
+.tophead {
+  font-family: 'New Tegomin', sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  font-style: italic;
+  background-color: #333;
+  color:#ddd;
+  width: 100%;
+}
+span.divider {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 85px;
+	background-color: #1079cf;
+	margin: 8px auto 0;
+	position: relative;
+    float: left;
+}
+.part-title {
+  font-size: 26px;
+  font-weight: 500;
+	padding-right: 25px;
+}
